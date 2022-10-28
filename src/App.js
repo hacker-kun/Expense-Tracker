@@ -7,8 +7,8 @@ import NewExpense from "./components/NewExpense/NewExpense";
 const dummy_Expenses = [
   {
     id: "e1",
-    title: "New phone",
-    amount: 94.12,
+    title: "Books",
+    amount: 10000,
     date: new Date(2020, 7, 14),
   },
   { id: "e2", title: "New TV", amount: 799.49, date: new Date(2021, 2, 12) },
@@ -23,6 +23,37 @@ const dummy_Expenses = [
     title: "New Desk (Wooden)",
     amount: 450,
     date: new Date(2021, 5, 12),
+
+  },
+  {
+    id: "e5",
+    title: "Smart phone",
+    amount: 16000,
+    date: new Date(2022, 6, 5)
+  },
+  {
+    id: "e6",
+    title: "Tickets",
+    amount: 700,
+    date: new Date(2022, 9, 10)
+  },
+  {
+    id: "e7",
+    title: "Speaker",
+    amount: 9000,
+    date: new Date(2022, 9, 2)
+  },
+  {
+    id: "e8",
+    title: "College Fees",
+    amount: 12000,
+    date: new Date(2022, 3, 2)
+  },
+  {
+    id: "e9",
+    title: "Property",
+    amount: 23000,
+    date: new Date(2020, 5, 30)
   },
 ];
 
